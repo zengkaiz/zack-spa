@@ -1,0 +1,410 @@
+35f9055cd0984f262e687b7d3390b764ed393254
+662470da1196f0c82e3817a68d471bc59c049f5f
+785543477bf899b07c5e9fe568ae73028a0d1ee3 
+a3a4a87b8a16b5eed68e703c3dfcf89785c8e33c 
+b4a08161ee3c5992be4433d7806edbecca79e4a2 .biomeignore
+9717cd9a28495190a32b995dbb89cc3b313aec77 .editorconfig
+3e9615795c5098c7e304151315db460949014a81 .gitignore
+4f02bdecca8fdccc7606040248358ff19aa60296 .gitignore
+73921c159522796ef6da36c7c28c5554ffd3d80e .husky
+5ad4a20e3a2fa3c9e07ec1bb8fa68a2fd2f72664 .husky/README.md
+7597781635961d921289340efcca57aff0d8d4f8 .husky/_
+cec959a6b9d8411f64b2c54b1cef4c9a32f7924a .husky/_/husky.sh
+ce0b837121cfee11bbb79247d39deb968251eff8 .husky/commit-msg
+a5a29d9f7da2c47591a22c51582ff4ce647cf0d8 .husky/pre-commit
+60d0a43ddd20ccaad9eae43c1d2d1492baed7730 .swcrc
+68d8f325bc4f892210e2cf3220820ef472f660b7 HUSKY_SETUP.md
+fe8ec86d78e511c88320a752e3e5c2fd1011783c README.md
+6bad93124f5308e25703c7dfa92c632640a14f84 biome.json
+58c6a4e0c5e07758a1d94c98e4ee6fffa3400728 chrome-mac-arm64
+1627091f2629f099de6376418406094e5271f32f chrome-mac-arm64/ABOUT
+0b33e0cea1a5bde127f932b7a4980e912bc002e9 chrome-mac-arm64/Google Chrome for Testing.app
+82cabd4412480234fb48df1b5a5fcf5d80e91f6c chrome-mac-arm64/Google Chrome for Testing.app/Contents
+34349f85a540558e581069885ed69c14fe658b88 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks
+8d81003d4ca32cac099ec0725d79d201562e9cbe chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework
+35dc3951d3c9419afa49c006cf29fd8c54434707 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Google Chrome for Testing Framework
+feb1cc0b96a92b1c6793dab91976c435d20fd7ca chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Helpers
+bc941ee1fd694ecc86ef32b2c1c1f3700afe6639 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Libraries
+953ee36f3bb709faf58a351e0b33c353e337c0a2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Resources
+704ed0a67f422e727a3b0c551efebbf2a545c466 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions
+c64bf02913b12dd37bac3ae3c997f5b2348c113f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40
+eed35e6fca210db2d739fc9e2ddcfa93092db3b4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Google Chrome for Testing Framework
+e20a4452e32421b205cb20b745e26f98ab549b89 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers
+c99a9569cdb015d5f81a58d370d4475b6422a290 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app
+4398b765873ff9d360beab6209a86d0b5c4e6b9b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents
+31c1daa6f8e84294db52e70b25b2c3aaf6bc2cfd chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Info.plist
+6aa7559f0065e6dc1159ea92e1718f833fcacf69 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/MacOS
+29821bcf6101afb89de7582f2e75e9077c72b553 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/MacOS/Google Chrome for Testing Helper (Alerts)
+bd04210fb49f6032c3cd79559334dbe735a998ef chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/PkgInfo
+1b2c2efb28f7b902a91956cb11936b2f8312505d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Resources
+e4a9f81ee8b1620b9212c3b4d09763f2289cc02e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Resources/Assets.car
+25e6fdee497dbf549d5bb79050bfd8d923cdb3e5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Resources/app.icns
+a43edc54bc6cc1d46849e12df5aef4bf81b4ff64 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Resources/base.lproj
+44b767314b6045ff0be125cda5ecfd939f543fb6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Alerts).app/Contents/Resources/base.lproj/InfoPlist.strings
+68a16029d046ff8ceadf59af713446875faa9945 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (GPU).app
+d51fd1471d50240b05c16b627f3ba0e281d4fe16 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (GPU).app/Contents
+aa0315c2ca5329b26ebaff5105c6d43eb097a3fa chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/Info.plist
+5667935519510505a585fa5a21788280bd2a14d5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS
+bc6ee701046aa13fcb2f9acb126a86c016bfec64 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU)
+791053e1a949d43cacacb2d0749bb4f4c2b1dc79 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Plugin).app
+bef9a514e4023f9513a3ce098e1d80ab1a970530 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Plugin).app/Contents
+624be92d337fe7ec31898669c9c2c89b0d9cdf5d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Plugin).app/Contents/Info.plist
+f7656b449d791470140102360ff1bcf951e09ee3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Plugin).app/Contents/MacOS
+4dee93f30725c1b051eb5bd82c6f45168f37a5ce chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Plugin).app/Contents/MacOS/Google Chrome for Testing Helper (Plugin)
+de7edf9d18be7bd8ede1de02f5fc1ebaa452e7f7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Renderer).app
+f10a25a55bdc6650482e665837fc7ba400a0f614 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents
+a72d92214b123ba186f9567ed9a70233b04b8b3f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/Info.plist
+cae1172fda8ce9f18e283dd0d0c5dcc964aa86ee chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS
+25e554da06b5cf8082a0e30277992b595c1b9b79 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)
+f255086fac3201d8f1a18e83716d00be5eaadb82 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper.app
+711b3af05b7ebf3bdff41bc01ab46554901e40d5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper.app/Contents
+b1ef139b43cbfa35390a5c93b2975f51f4341249 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper.app/Contents/Info.plist
+4d0c91b65f8bd8525dfa9d316d4658c957dfaf3c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS
+85eea89de12c15f865cde8fbe839498cc84936c1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper
+698bc9681b2b11ef686183ed0a27e17342a88be2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/app_mode_loader
+30ffc6bbfb01bec89636876800ae4579d629c6eb chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/chrome_crashpad_handler
+62c2e7b9fb3cf11f0af03cf97274b55c8f035568 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Helpers/web_app_shortcut_copier
+750c77a65fd3fb97522031e7294a95d9de24d62e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries
+93cd8107001746e02a4c43fd7a0e285d9cc4f616 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/IwaKeyDistribution
+ecf4b16781b6a5f774f9179998184d0a24c7a6c1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/IwaKeyDistribution/iwa-key-distribution.pb
+bf992ad6b85508053c574c443235778bfbec5499 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/IwaKeyDistribution/manifest.json
+219ee75c83b3636f7dece4e6c26b63654956f5d0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/MEIPreload
+1b4fa8a1e63eb95a7ac30010cf8f5880a80ee833 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/MEIPreload/manifest.json
+78f104cb240f1229248e0d0cea35d0f27ad80f65 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/MEIPreload/preloaded_data.pb
+bdaeba2574e46ad527c6b5d7eab783eceb5cde13 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/PrivacySandboxAttestationsPreloaded
+86a40e28c38b141c1ae9ced684c794aa45f1c9f1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/PrivacySandboxAttestationsPreloaded/manifest.json
+11661b81408397becdb3d651df7112e4d02c9880 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat
+9d4cccac3645237b3e699457e6408d8ab6b43db5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm
+e711887a614784d3638ae476a6b01e3961347434 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm/LICENSE
+a5882dd57127c6dff252d171ea09dd17e4c1294c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm/_platform_specific
+e02ff8a85d9adcd2fc25fb83e173f1a2efb1ff0e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm/_platform_specific/mac_arm64
+f9541fbbdc49a248af72917b49ed45716eff2819 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm/_platform_specific/mac_arm64/libwidevinecdm.dylib
+bdc902bfdac7d3073206169307226549c1fd9a2d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/WidevineCdm/manifest.json
+4ae700890a9837fc1569366f21325b01407ee88e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/libEGL.dylib
+4b478f78af1a0a37b22f7c334b2aa885f334894b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/libGLESv2.dylib
+93b301292256aa3c834d4e4f19436088d3ce232a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/libvk_swiftshader.dylib
+d63cfd9a325906d1ac22eba57a9d9396516fde52 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Libraries/vk_swiftshader_icd.json
+7bdaf51d7442d443032602e294081546be567f05 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources
+4797977c27bfab5edbfc0ebdbfc535588340519e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/Info.plist
+f846a543ed9773537f0a14d7e1852f3e0c6564db chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/af.lproj
+77b522476915c79321c53f549c2cb4449c23e8f1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/af.lproj/locale.pak
+f7b99dc7787bdc76e52a84eacb4e8c6a7e0c7701 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/af_FEMININE.lproj
+9d122deb32fae7ee8adac4414675547d79b961ab chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/af_FEMININE.lproj/locale.pak
+47f1848d6846fd6011ccc876175f1534cc55a31e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/am.lproj
+54a4fba969d2ba6bb3887c6e9b311e918b2a5349 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/am.lproj/locale.pak
+b8eeed3383d847e3002b0e153f9bdfd82dcd6a18 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/app_mode-Info.plist
+cb8c7a8928c676aa573026efdd8aed93a0717787 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ar.lproj
+d575a4a9190b56af5e8de1ad44d76585a28f70ec chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ar.lproj/locale.pak
+5a61f1c65293cd655dfa82b6b9f0377cdfe5317f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/bg.lproj
+28b8698421bf8cca19bda7b68c95847950ceca05 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/bg.lproj/locale.pak
+89c34682f5b4d3cf9bd08a48f780a73341735309 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/bn.lproj
+a9e601882c8392de5a17d269c9f701ad3d3c2036 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/bn.lproj/locale.pak
+9514c5d667574749071dbe2f24a2b195d3d994ac chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ca.lproj
+fb807207520868bff773a5400e6d75f6111a6263 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ca.lproj/locale.pak
+2fb2b3922e12ebbb0e0ba989547a5d6a774580fc chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/chrome_100_percent.pak
+497f6f8554c0cb3f4ec8059679e943f51a322118 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/chrome_200_percent.pak
+9c0f1f0dc24d17078f56487f93edbd163eb3bc50 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/cs.lproj
+14956fdc393e6b4e49fdcd184220f6a4bca66a64 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/cs.lproj/locale.pak
+0d6b3551de416a225b6a6034b1a72c5200cfadce chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/da.lproj
+47ba637d5aaf07b69428b876211ae6fba64dbb47 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/da.lproj/locale.pak
+1a05b66934f12ba4efced641628c3e37af45a5b6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/de.lproj
+d7faabf5bee4f5a5205df5ff17abf9e3ef41e131 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/de.lproj/locale.pak
+163850cc93919944c7bd884694335484c838a063 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/el.lproj
+3ff0e4c99f47619b4c894a1ff97cadc2d6f60650 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/el.lproj/locale.pak
+4a02f3bef4dfc5d2d63901ea9b6dd5095dafdd02 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/en.lproj
+a77360e13a6f4d7eb1edc0b82b62d547a58ce2e0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/en.lproj/locale.pak
+85c8adf59a5b1b3b2833440d023494c0de15fbd0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/en_GB.lproj
+7a813966c827d59e1e349335695e4211ceb94a66 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/en_GB.lproj/locale.pak
+969734be4c3d3a61231316fbe0557be39605d041 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/es.lproj
+683dfa06c9e121bc24968425eade422506b6b4e9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/es.lproj/locale.pak
+8ad9b4ce7630834e94fcf1bf7ba1f89bc42f5fa8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/es_419.lproj
+27fd643d8531c1f398c40dbee40a83f7785b7cd9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/es_419.lproj/locale.pak
+ab8607f91d201adc4936141c0a82200b4b546e64 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/et.lproj
+38b21dfc224a92c6c84c570baca59786e77418b4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/et.lproj/locale.pak
+787fcf42c68488a8dcd41bc80af6f66fc3aff11d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fa.lproj
+ba33c5bd082995336d59e3bc8814a67fd478acd6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fa.lproj/locale.pak
+b2bee25c6bc7591038475286a25323a7fb598059 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fi.lproj
+715f3e71f32c1138f373689ab8238f15cb9f41ab chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fi.lproj/locale.pak
+3fd4e4364e2de15a30c99948398d365e3e49035d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fil.lproj
+5a14d4bd0a24f44d1f3233750d8e273a5f350a54 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fil.lproj/locale.pak
+65cf20cb8a9f7f726390243b81169e8ca72eec81 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fr.lproj
+b1cc2b81406fd46847cc6f48df6fea6a98e19484 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/fr.lproj/locale.pak
+5fdf105c159fd6f72f1e6a64341a8e3bfff6bd7c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/gpu_shader_cache.bin
+ec7179a5c5480cf4c7e1d6ece7c075c02209cb9d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/gu.lproj
+53fa6314cc192b11977efb8f58ba12e96334f4c4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/gu.lproj/locale.pak
+ed4fbacfc678e1b9b40ac4068fb28acc48f08978 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/he.lproj
+533e1f0245666b46d36573f6202513683a0a77b2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/he.lproj/locale.pak
+f438207b7be9068c233e4082fd1b46ea616fedf5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hi.lproj
+fa064676935f66b4ba35d92f0f1b1d63bf88ed23 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hi.lproj/locale.pak
+da768b619722db81b4e62fcb62a2d73e37e14196 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hr.lproj
+a5bde1fddc0deae3c5eb74339ec8a6edf8b37c9f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hr.lproj/locale.pak
+94e45ff46818d4dc739188bfc8691e2f10ad66b3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hu.lproj
+d368715a748f4670b7ab96db3b19123d0abecf40 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/hu.lproj/locale.pak
+d1a12cb93065157498a11ff5f4b9a6501ee22506 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/icudtl.dat
+9751543fb514f694b9cebf008e297526c660c691 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/id.lproj
+5b687d1c64b05337f787f049be1fada9fd3ede4a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/id.lproj/locale.pak
+a90640bfafe0b9cac4fc7dfbdaee55c60e11c1e6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/install.sh
+87f81079783dbe8f4cd431e596d44cea44584e64 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/it.lproj
+9ce20bfe0f251cf26ebaf8a5d0695ee9f3b7e9de chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/it.lproj/locale.pak
+4fc9809a4fcf7625e26f216c4f70b2003e53a82c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ja.lproj
+bd0141868f30cefefc7772523738479cdf22cbca chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ja.lproj/locale.pak
+9c05221180883dcbbd35bc058e403c37711c31dd chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/kn.lproj
+5051fe5e8fedbdaee1ad2d1b5fb3013e76d3a570 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/kn.lproj/locale.pak
+e4b6084d5976d4067cb1e652039eaee5b0111706 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ko.lproj
+7265123d88081e8bdf08dca3007ee22eb8fc84c9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ko.lproj/locale.pak
+e4ea1399a14c5ba449c07ad0d86557dc2aafd13d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/lt.lproj
+ab91c764a1447e8303930b2f075108041e24a6e2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/lt.lproj/locale.pak
+5035920e1377a8deeded8403869e6511c9e5ad32 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/lv.lproj
+4d27015389cec180dc26f2b978fa7ba39f84957f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/lv.lproj/locale.pak
+01d3c258062d188306c829f4a642126b0ca108db chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ml.lproj
+411b672d93a105124dcba60c4f9c422ed2296753 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ml.lproj/locale.pak
+0f3fe66c32c69f80478314cb9f41fe061ed22b05 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/mr.lproj
+cc71bc942e7c33375dbfc8e5c9b090f6afd9b75d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/mr.lproj/locale.pak
+4b92e974cbc8fbf897cf5c10e02ec2ff667fedb3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ms.lproj
+e00cba6ad6d2a0933078712223b62fa3196cedc1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ms.lproj/locale.pak
+60ab4a24b97f5b6a2e62a65167d051529cac206d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/nb.lproj
+b775c01449f0fbc7e104b0792a93accbbd407c89 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/nb.lproj/locale.pak
+d5f2150eed89f62f58048f101780b85067d5c379 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/nl.lproj
+2328f80273bdafe3f8438b86bc554373c3330490 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/nl.lproj/locale.pak
+6e56d7d47899a5be66022a30062676a98cfa253d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pl.lproj
+3b9da77004ecd0fb6226c1270a963027d19fe20b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pl.lproj/locale.pak
+6e9c8626ce2116c8b59a4259e1fdb5d4f9d80588 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/product_logo_32.png
+8954495a5636ae1088d206eb75959fdf22b33e37 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pt_BR.lproj
+47c212bf348eb65f4b24ed431c69f0550ac7ff8f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pt_BR.lproj/locale.pak
+e64201d39896a3df4c94e8d9041b467abafe5d58 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pt_PT.lproj
+d0b0346d371d369af69f5e8a9cbacab8f7a115ef chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/pt_PT.lproj/locale.pak
+0f928e9c701a51d29b5c6e212058e51888f63384 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/resources.pak
+284b5ef464c0c4a67ab5c49cd54bfbfb629854f9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ro.lproj
+7b4569c6577fd69e6cc178a40675183101ae9eb8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ro.lproj/locale.pak
+9f50c47b4eaf1a851e1c3663bb506cae44d9403a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ru.lproj
+6424494f52b890ceb063fe885a4a8ccdc1eca559 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ru.lproj/locale.pak
+8715468d862ab8324bc119865e36dcf8db999d20 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sk.lproj
+800121dc7d0b76187b0762f07d9a73f1d2fd95ad chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sk.lproj/locale.pak
+443be37cd98992814fdc7fe091c82fb9c34571e1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sl.lproj
+5cab699b511c25243b90e361fb9d8178c2de258e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sl.lproj/locale.pak
+9b20fb13ea79e9868847a166902a9889393cacf5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sr.lproj
+539ded584aefbc4321d54d96b269405f9217a8f1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sr.lproj/locale.pak
+d009d5a6b11aa0daa62da708ae5538b6185228fa chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sv.lproj
+d618d7bbfd86ae2053920a1e96b6e14fdd79d397 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sv.lproj/locale.pak
+b4106e1b61ba6e642996004840d8ffcdabea37bd chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sw.lproj
+6424b63d8d9e1a34fa886cca7d5a1ab5cca3c086 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/sw.lproj/locale.pak
+f898997b9d2107117cceacdbee984bcfcd5453a4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ta.lproj
+f8f5f7e5f4796f069638860d2ea43cda94bbf62c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ta.lproj/locale.pak
+a6706613e6cd0c1464a4f3f8ad6d15f7ef870dbc chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/te.lproj
+057e824e1030859d798520ae20be2b4212b2d8f7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/te.lproj/locale.pak
+4273ee5701e9b389ca62e4766baf63b0458ed212 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/th.lproj
+344d92ab140e4ecf86daf8ba95122b99789d5b6d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/th.lproj/locale.pak
+3473032d4df48dbf3dab6d6c28ce3f40b5fdeda3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/tr.lproj
+689ae7764e38ca53bca587f497bf16dd9e899c4f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/tr.lproj/locale.pak
+d009516d87755e0948825fec658182cd97034318 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/uk.lproj
+e197984930fbf734e4222bb2f21523c740bdbca4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/uk.lproj/locale.pak
+32ef776039ac2274664eacf904b88b0443e3fc62 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ur.lproj
+53b5b68eb5e38cb76d64585af1841ad1be2e6334 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/ur.lproj/locale.pak
+327b2c287a14db72dbaf1a04e2fb72e3fe0ccea8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/v8_context_snapshot.arm64.bin
+e89ce2dd21f57d47f6257599583541aacdc03295 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/vi.lproj
+e11c1255efe79ac41ea078fa8b6ddf8342502d67 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/vi.lproj/locale.pak
+00c07f8f4b49fc234def1847571557da82a8ee10 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/zh_CN.lproj
+c677c83f82e452ce8668631e89f77eb897d031e1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/zh_CN.lproj/locale.pak
+eaa0c09732e9b4568f0294506ed73b16b24550ff chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/zh_TW.lproj
+5be9773d2130a0dae64f598eca801a4683bc72c0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/143.0.7499.40/Resources/zh_TW.lproj/locale.pak
+d52374aba8da1075a617844c2aedd39bffc87ba4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/Current
+5d284a412d410cfeb1d6de4a77ca5554cb1ad152 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Info.plist
+c2c0a0b673935c52f35ba13ef2561261a4afd051 chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS
+df835c99c1a9dcbd6cae6442b110c8b1241a1298 chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+37d2086aa91687304b592ae17ead06fe9adbbe32 chrome-mac-arm64/Google Chrome for Testing.app/Contents/PkgInfo
+b7207cbddfe2ba190f818f55ca392016a09e20ed chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources
+18783c497bf7af0e0ce05a1f81b5f5d6e27b7ac7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/af.lproj
+704b7ee7b5df534dfcd27cb1c3f79f7bed013a03 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/af.lproj/InfoPlist.strings
+064186fd12de8941b7fb1e028ea6509686245e3b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/am.lproj
+ab6357d811182a73246594fce71c5b19c3c83a72 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/am.lproj/InfoPlist.strings
+9838d65e156eb76244411a2a7e43cafe3aea2e1a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ar.lproj
+b7838ae6f92db521abb932851ed0fb674c74359b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ar.lproj/InfoPlist.strings
+a2043af6d71233963867e89f820c824b1ca6e8c0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/bg.lproj
+03ef664bdc9917bd8d8654d0261ff94aa576de6c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/bg.lproj/InfoPlist.strings
+5335952bc43c0475701e2170d5288e588625d094 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/bn.lproj
+11f74b516d68163e1d451d807ef709d98b58a440 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/bn.lproj/InfoPlist.strings
+3bc90c2cdf3f2f6fb875ff8345bf7229a94b2b01 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ca.lproj
+39e32023969292a274e1add2b5ccd66c24274f28 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ca.lproj/InfoPlist.strings
+31de2ec74af1333dd1304b762c62baaf724c85c5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest
+6d1fb566145db23174daa8980f23097d1ceb11bd chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest/Contents
+2a6d47772e0d2c68ae5b80c5c8e53acc3586fda5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest/Contents/Resources
+937cf929ac6c995f52eae41b2dfbd19cf85989d4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest/Contents/Resources/com.google.chrome.for.testing.manifest
+5ddd0d034096155c92c903f4ce846e19745c2de3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest/Contents/Resources/en.lproj
+0bd130968d42bb87dbccf3a22621b13a8df4db6f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/com.google.chrome.for.testing.manifest/Contents/Resources/en.lproj/Localizable.strings
+8fb2133c66687f79ee3352197b2608418cb3b902 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/cs.lproj
+bd7c6dc8128c8fb16fc147967765bde062fce506 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/cs.lproj/InfoPlist.strings
+8582d4b8d8f19ab3cf5fff78d99d45000a44b536 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/da.lproj
+801428e7b335ee3e86f27cd763c3207e67f84438 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/da.lproj/InfoPlist.strings
+ad783609a5ab5918a63cbc680193637fcd8baf07 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/de.lproj
+840abef0975cf36f02672784bd98eb256aff2146 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/de.lproj/InfoPlist.strings
+e03a6acb23ebfcaa042b3bb4c8f46a73fa2d506c chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/el.lproj
+b26ed7fcd32bd031a566ea28577e0f75681dc63e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/el.lproj/InfoPlist.strings
+6c74d93521938a9d8e0d011673f8087b413f67ff chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/en.lproj
+c806f8d54ec9c698083abcb1eb0ac68225f7abab chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/en.lproj/InfoPlist.strings
+48f0d82c08a63214d975c6880bc2cedd79da322a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/en_GB.lproj
+84a2bf7cee41a32ecafd6bac7f289c8dfe4177bc chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/en_GB.lproj/InfoPlist.strings
+f54a89494e0f177db510bb440075f690be8e5994 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/es.lproj
+3da3d4135f3e33fa8396537270406f30270d8e8d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/es.lproj/InfoPlist.strings
+3109154d5f12f8a2f86a74dcecc7de03ae16817d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/es_419.lproj
+04010dc80b9dc436ee6aaa26b7505a4d87c92fc8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/es_419.lproj/InfoPlist.strings
+f2930dfb75c0a15f011be1c0b698bfd984b400b7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/et.lproj
+ae4a399e21357db8d81e763558febbf0094cd171 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/et.lproj/InfoPlist.strings
+e03b4f70c1aba2401a43a33b5d33b0031143b872 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fa.lproj
+2a4578468d1db2631d1a0f38ae95e45d44ca2f1a chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fa.lproj/InfoPlist.strings
+4ae8b2facceb23051aeae5d6de529aa6e4a393ec chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fi.lproj
+0f641fe43ea602d6d3d6203c1fa8e18abbe0f4f6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fi.lproj/InfoPlist.strings
+c46f09d4fc5fdc9522d7278b2b4a4a374b75d59f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fil.lproj
+8abd996dfb13c6c5f6fe7ec434b4a8a051c47064 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fil.lproj/InfoPlist.strings
+93de3b8712fb11ec2d6ae410cf9ddc30b93a61f5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fr.lproj
+921876a6a03426a065c7fff7fd24669f2197be4b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/fr.lproj/InfoPlist.strings
+d05ac5f4525213d83cd4abebd452f7f9a2ef2c05 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/gu.lproj
+c56cbcba4497a475be315b1b4e231bb7f2c8e3ed chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/gu.lproj/InfoPlist.strings
+5d64eded8a11b05d07390f8918515e1895d75600 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/he.lproj
+6365f12d5c6a950b9b82fc29db2606b697563405 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/he.lproj/InfoPlist.strings
+a71069e60c74b730526f58f475e053d53a61949e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hi.lproj
+7336cfe708d34feb7aa5cda52714a5cedac41d02 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hi.lproj/InfoPlist.strings
+893742eb316a1c86a8e20f35fb36ba0466b1c242 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hr.lproj
+194fa4d423cdcbcf715306a5758d886017d77d26 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hr.lproj/InfoPlist.strings
+7ae1cab397c48566c92ea604169a1e9b2160b9d0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hu.lproj
+d30b320cd2c1c3ad837a3dfb3d99a5518fea722d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/hu.lproj/InfoPlist.strings
+0d6280e4f1a6a3009f6dd1ff830a6e03139f2d4b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/id.lproj
+67893d5bae68679226c39675ba9d27eea9a24ff3 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/id.lproj/InfoPlist.strings
+2d48becbb88a818ed42ce640480570cdf890c7c9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/it.lproj
+951fb562ca51fbc6e3b859e453d8393c685dc5b5 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/it.lproj/InfoPlist.strings
+01b762283bfabb57978580b1f1431607f5e64721 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ja.lproj
+288ec84504a6fa5307fbb16b0fd77cee3cfc14e8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ja.lproj/InfoPlist.strings
+6131f9f3d2fa91a3b52030e3c3b770bd29e8eec9 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/kn.lproj
+c632cfc6b796ae4fa9dd42ffdd502322135a47a4 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/kn.lproj/InfoPlist.strings
+8b513937c6b5d100819d753a6e8ab7a7dd3f5700 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ko.lproj
+27170e5069dd2e9bdb08dfdb9c01e62f1f495132 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ko.lproj/InfoPlist.strings
+e88aac4762274964690b89c254fb0e8eddb83165 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/lt.lproj
+b48f7a9796950f67842573ec6e4c551d91391e83 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/lt.lproj/InfoPlist.strings
+1544e01ac34d41eeb37e7aa5460d8b6e2b117afe chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/lv.lproj
+fdb5d72301d14c8f67a8084ef8a7dd9d7e9a4d4d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/lv.lproj/InfoPlist.strings
+588d461b524e98db471ba7022a7b0ca632f3a600 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ml.lproj
+66500e1907775449f07753fe0be38fcbc938f3f2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ml.lproj/InfoPlist.strings
+e38cbb8fb03d9db5ca0c4d48c11e10825359ae54 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/mr.lproj
+5423aee534943f548146199ec73adf6c5c6042f2 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/mr.lproj/InfoPlist.strings
+456e8376612494c5c9957e308a6bb3822f651e53 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ms.lproj
+fee52433e9c8c03a36e349622f71e99a6409d7a7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ms.lproj/InfoPlist.strings
+0029d59a2b0ed07101541c7febc7face56cc0f26 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/nb.lproj
+10d9bd0b5a926eebdad3261bf235427d070cf4be chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/nb.lproj/InfoPlist.strings
+eb48cb04659cab9c64d51a70d2b17b612dc50afa chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/nl.lproj
+c840e5ada0c9425aa8a632dff096e98ac2363bd6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/nl.lproj/InfoPlist.strings
+fb82d3776b8b63a0b60bd33b1c762fcc075388b8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pl.lproj
+76411c623bd4a3d06cd09d503c87273e757d8a02 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pl.lproj/InfoPlist.strings
+4e9bc6af04fce07184f9934fe5bc1885a84b56f8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pt_BR.lproj
+7474b40196020d1163d86eb7296c4f0c97b78918 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pt_BR.lproj/InfoPlist.strings
+b65140d17ce1c1482c28053411fd70cf88ab47aa chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pt_PT.lproj
+a9d8602f671337aed9b4941dc5c4a78f482d7cf6 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/pt_PT.lproj/InfoPlist.strings
+ddd5cfae13eed4ae90e6acb586792d5d659bc95e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ro.lproj
+ffd398e7a0f91ee12adc5b09bec04640cef1295d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ro.lproj/InfoPlist.strings
+7b15f0711275fb78bd1f17d2862bb6125f86cde8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ru.lproj
+e50fb1d3a278bda2d75a0084c792cd7502a50572 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ru.lproj/InfoPlist.strings
+f991d613b4f5a4f610f730c4d5b98759847c4693 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/scripting.sdef
+5eea6bbc9c331d0c3b87c7ac62e34116c82b6f9d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sk.lproj
+95a1549b14d7303b59c32d9fefb699921efcdb28 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sk.lproj/InfoPlist.strings
+0edf3af8bc0c75f96f1b270e354686c0c3760dca chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sl.lproj
+8b7b4e0786c10ab675aee3952eecefdd7fffa407 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sl.lproj/InfoPlist.strings
+4139d470077b4f2ffa98ba60945764df7ee60ded chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sr.lproj
+dfe29dbd5eadfbb76fe3beab35130731182cb88b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sr.lproj/InfoPlist.strings
+23a76e3955beef12ec2b3e19383818708bdbf266 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sv.lproj
+6b78343c3f971586bb4b960b23189452777ab262 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sv.lproj/InfoPlist.strings
+596583cf2dc134057a2c1d5f749fce063990cbfe chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sw.lproj
+7c47068acecc656cb4195f669316fe1bc0a449d0 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/sw.lproj/InfoPlist.strings
+95c1be294c71d2dc80e2f6be87d0ae179cd6f19f chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ta.lproj
+b51849fcffa6a09d3b2d7bceb6072b01968efb56 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ta.lproj/InfoPlist.strings
+87ef78880f5bb705ed73a383cb3709a6e2ecb7e1 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/te.lproj
+7a62e96828bb8c1dec19f6d931bffed89960dce8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/te.lproj/InfoPlist.strings
+9c6a6593f8d4d52f8bb33743e9d53bdcffc9ab9b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/th.lproj
+16604e6d40a3066e08d0fca6eb805850dbacd0ce chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/th.lproj/InfoPlist.strings
+37b49c6db880f3f1395466544d60e73a69ebdc82 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/tr.lproj
+a7824d0f9ee64901ba7627e327871b79ac74fc27 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/tr.lproj/InfoPlist.strings
+5675fd1b01570d886706d621a7862d40d97f7568 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/uk.lproj
+39b4bcc6fc575fd7e8467f0be364e2fede8fb67e chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/uk.lproj/InfoPlist.strings
+1884e6a1f4f06ae2fd4bc70c6555f89eb4f43d0d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ur.lproj
+1971527e141170a6d50800cf7101cd64c94020a7 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/ur.lproj/InfoPlist.strings
+781aa4bc21c05f78c42affe6673ed6020676f738 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/vi.lproj
+c19fade7867ed18c963b005af5b215509da7a07d chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/vi.lproj/InfoPlist.strings
+f2a29cfed4dd2ec2f7859df7a2631a556dc55a6b chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/zh_CN.lproj
+04cfbe0a105a20e9ee80085ee495a902a67129c8 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/zh_CN.lproj/InfoPlist.strings
+72f9186766bbb0422c5c224a52e769f5fc9ea749 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/zh_TW.lproj
+dba5531d1956e541fe0776ef16f62bdfd0a06a69 chrome-mac-arm64/Google Chrome for Testing.app/Contents/Resources/zh_TW.lproj/InfoPlist.strings
+ee52f923126c4309526a0795149c84dee4906452 chrome-mac-arm64/resources
+595a7eabb09d88ab58484b4b536f009eb993fdac chrome-mac-arm64/resources/accessibility
+76c8810e5da924c02f4d491b54bdb26cc2af8532 chrome-mac-arm64/resources/accessibility/reading_mode_gdocs_helper
+cdb07880059260ee4b3873569d008137dd98c5e7 chrome-mac-arm64/resources/accessibility/reading_mode_gdocs_helper/content.js
+9df9c10c608584e7aeb26567dc294cc99dd96683 chrome-mac-arm64/resources/accessibility/reading_mode_gdocs_helper/gdocs_script.js
+437cad5a3c073ec162aaf482def09bebbb5b6cb0 chrome-mac-arm64/resources/accessibility/reading_mode_gdocs_helper_manifest.json
+3e298d44b16ff97dc2fecf18ecf8f8779f6a4d98 config
+d4aaf6651ae2d0321a1bb0fc5f64c3f37733a7f6 config/webpack.development.js
+3938491f102e68f207de671b8f900a288747e0da config/webpack.production.js
+cb04e6eaefff1088519a1ef31a11854e17bd45f9 cypress
+36ef198d83db59b4db6463c5f6785cd4d76d6baa cypress.config.js
+85091345b978a44242ef94d6b60a15748194433a cypress/fixtures
+02e4254378e9785f013be7cc8d94a8229dcbcbb7 cypress/fixtures/example.json
+cbb90eea90a4826f610a0ae68645fa1be7832afe cypress/support
+66ea16ef0e3df90c4772a3e76616bc54f7d31a49 cypress/support/commands.js
+ac6e79fd83dfe40052a8f82d2e03f1f519be156d cypress/support/component-index.html
+6700fb396d248de65d8a4d941f62760116006b70 cypress/support/component.js
+3eaffffa6b435374544be09302caaa918ea7efbc cypress/support/e2e.js
+d50194b3727ed6733c8b6538fcbf5ea51ea534ca jest.config.js
+a3194fea91fb8842a4734f72d4cfbbb3987e9a5c package.json
+9ba6df7ad4184fdb502c1d94a81dd23019b0fd69 pnpm-lock.yaml
+8e8b1fa89b487dcf37ea2bceb0dd4d22d3a1ad16 postcss.config.js
+e533404f24b18979f7429496ecf504d1c1370365 public
+227363821cd31d20e265c93536d8dc10614f7661 public/favicon.ico
+83adc66a9853441bc22465c36a6e7cb0553a45a1 scripts
+46f932c41f419a02796bcd5ee938adf0dc953d0a scripts/client
+4fb4694cda9488b11d4be64968023055d916506c scripts/client/dev.sh
+7a2bf4fbc24c10798c71288c49dcec9b2be20a94 settings.back.json
+16654ed2cb283111b91841e75a8cd74d80306fc4 src
+1fa9654097baf926a9d589e846f9ae1af653f7b6 src/abis
+948335875501159b0775c469b4ded8b3ec53428f src/abis/InfoContract.json
+174655d9306afa43af2d4005e66ffe64a5a8eb71 src/components
+153226d5ef5fbd0c946496f490a4d2666d9c30b1 src/components/Header.tsx
+5f9215e9f2b9d7e4a447d27f401c438aebf02ba5 src/components/common
+1fd7e5e56dbeff771789a0a433a49e22fd2beab8 src/components/common/Loading.tsx
+9efa0fceab13dd9dee1dc06a0bf8aa5b104c8577 src/components/common/PageNotFoundView.tsx
+9b40b604211e249a0d8d0ea7e62f4b31aca01b95 src/components/common/index.ts
+1ebf29af2fd80fd3cf63b254bb5534d6fee66241 src/components/dapp
+259652c7bafaaec09f4a1711c5453917e107e501 src/components/dapp/index.tsx
+a9b7fd01f7f42384725001664f1f7e6f5882261f src/components/demo
+fc2814f68f9657c2337d2832aa9490387595d7de src/components/demo/index.tsx
+41d4611d37982326005fe2af2c9f562ede43db65 src/components/index.ts
+daf6e0494a29ce19290b2d203131815b80435b22 src/hooks
+ba69ca3b95e009ffe158568ec5fc83795df98510 src/hooks/useImmer.ts
+464ebe854b52eb8207c668d359c61435bfed4454 src/index-dev.html
+32772282c74bc87979e7f55278d78704526de3a3 src/index-prod.html
+624a483f19f9c771e087a76d6b63676dc3160aaa src/index.tsx
+ea982bc1073fd47c6f23d8f102596b2454ad99df src/layouts
+1275d2b7a9be9da76980a1eb007e282a4223f7bb src/layouts/Layout.tsx
+0bddfcdc4192161c8f0e89847ca5b7c7cfdd1f94 src/pages
+7f0a2503870480b4623b941e3686e458fdd8a6e0 src/pages/About.tsx
+11e1403002087c2d738e0c03577c9b69675b1dfc src/pages/Home.tsx
+79c6a7cfdde48c512887d2bf5bb67210cfdcf425 src/routes
+4b6cddace872964914a27c8bdbfb7607300eca70 src/routes/index.tsx
+d61fbf5dbf2fe5ca3c94b96ab20ee4dd88ad2167 src/store
+29c9c68170526f6e3b67809c14ec6aac88d67201 src/store/dappStore.ts
+9283809ac8c4f7fff437a97b6b7589b0d3056acc src/stores
+d1e71a3c42806947b5e448e0c81d5b150bd90546 src/stores/index.ts
+103b17bc0ffb2dded5232f551df38767d1777a93 src/style.css
+b786b0ab90434c9c6b97bfa130592f2e28714bba src/types
+fc1e7835dbd0847a59516bcb0ecce0b6346ddab6 src/types/global.d.ts
+569a811dcabd5e5f968c52e61fafaae88ad1d072 src/types/typechain-types
+8adf1b779a329fcc1e6bcea7acde6ce3b10a22c6 src/types/typechain-types/InfoContract.ts
+b127b6fbe67b6c0d4b7d08da5ac7c452a8f05ebf src/types/typechain-types/common.ts
+d02e3f427b11726fc72862fb41b0b2a09f15b26f src/types/typechain-types/factories
+6dee81de04d348760f47890c969ea82f2ea938c2 src/types/typechain-types/factories/InfoContract__factory.ts
+9777ad44652c1bc6ce75be0b27e55aa1f563d1a0 src/types/typechain-types/factories/index.ts
+5930cf87d5ef38e39720a83e83d26e22f60a4c1c src/types/typechain-types/index.ts
+3e92f82f1936592bd015dcba1a22b988a53c6580 src/wdyr.tsx
+1852251ee890c80c3a61666ac107cd05d9644e1c tailwind.config.js
+6c95d2b1f32398ed7734f90b4033e277130d647f tests
+687c6e3a29bf0ed206acaa83846b6ed5811b0e43 tests/e2e
+b2e12d1d27dc9d55b9130b42eb4ab04ce35ada1c tests/e2e/google.spec.ts
+e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 tests/setupTests.ts
+65321d4364523ee6435e4424750629c90c719d3d tests/unit
+8b70068f99cdc4872c4dcb4c3f1ff7361fcb0874 tests/unit/index.spec.ts
+70e9319b9e2718f5db32411feda9b7d4e7458ea1 tsconfig.json
+bf0d4bbae1d6c8c4383e846a5fa8bb134bc65cee webpack.config.js

@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+jest-coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+chrome-mac-arm64/
+chromedriver-mac-arm64/
+firefox-mac-arm64/
+edge-mac-arm64/
+
+# Jest
+docs/jest-stare/
+
+# Don't ignore husky hooks
+!.husky/
+!.husky/**
