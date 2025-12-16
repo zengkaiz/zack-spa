@@ -12,6 +12,15 @@ module.exports = {
     },
     hot: false,
     port,
+    proxy: [
+      {
+        context: ['/api'],
+        target: 'http://localhost:80',
+        // target: 'http://47.93.181.79:8082',
+        changeOrigin: true,
+        secure: false,
+      },
+    ],
   },
   output: {
     publicPath: "/",

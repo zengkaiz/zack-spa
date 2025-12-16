@@ -3,6 +3,7 @@ const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const { ThemedProgressPlugin } = require("themed-progress-plugin");
+const Dotenv = require('dotenv-webpack');
 const argv = require('yargs-parser')(process.argv.slice(2))
 // console.log('argv', argv)
 const _mode = argv.mode || 'development'
@@ -61,6 +62,11 @@ const webpackBaseConfig = {
       ignoreOrder: false,
     }),
     new ThemedProgressPlugin(),
+    new Dotenv({
+      path: `./.env.${_mode}`,
+      safe: false,
+      systemvars: true,
+    }),
   ],
 }
 
