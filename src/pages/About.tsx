@@ -6,10 +6,24 @@ interface ContactFormData {
 	email: string;
 }
 
+interface Contact {
+	id: number;
+	name: string;
+	email: string;
+	createdAt: string;
+	updatedAt: string;
+}
+
 interface ApiResponse {
 	success: boolean;
 	message?: string;
 	data?: any;
+}
+
+interface ContactListResponse {
+	success: boolean;
+	data: Contact[];
+	total: number;
 }
 
 export const About: React.FC = () => {
@@ -22,7 +36,26 @@ export const About: React.FC = () => {
 	const [messageType, setMessageType] = useState<'success' | 'error'>(
 		'success'
 	);
+	const [contacts, setContacts] = useState<Contact[]>([]);
+	const [loadingContacts, setLoadingContacts] = useState(true);
 
+	const fetchContacts = async () => {
+		try {
+			const API_URL = process.env.REACT_APP_API_URL;
+			const response = await fetch(`${API_URL}/api/contacts`);
+			const result: ContactListResponse = await response.json();
+
+			if (result.success) {
+				setContacts(result.data);
+			}
+		} catch (error) {
+			console.error('Failed to fetch contacts:', error);
+		} finally {
+			setLoadingContacts(false);
+		}
+	};
+
+	fetchContacts();
 	const handleSubmit = async (e: FormEvent) => {
 		e.preventDefault();
 		setLoading(true);
@@ -44,6 +77,7 @@ export const About: React.FC = () => {
 				setMessageType('success');
 				setMessage(result.message || '提交成功！');
 				setFormData({ name: '', email: '' });
+				fetchContacts();
 			} else {
 				setMessageType('error');
 				setMessage(result.message || '提交失败');
@@ -59,17 +93,6 @@ export const About: React.FC = () => {
 	return (
 		<div className='mx-auto max-w-4xl px-5 py-10'>
 			<h1 className='mb-8 text-5xl font-bold text-gray-800'>About Us</h1>
-
-			<section className='mb-10'>
-				<h2 className='mb-5 text-3xl font-semibold text-gray-800'>
-					Our Mission
-				</h2>
-				<p className='mb-5 text-lg leading-loose text-gray-600'>
-					We are dedicated to building modern, efficient, and user-friendly web
-					applications that solve real-world problems.
-				</p>
-			</section>
-
 			<section className='rounded-lg border border-gray-200 bg-gray-50 p-8'>
 				<h2 className='mb-5 text-3xl font-semibold text-gray-800'>联系我们</h2>
 				<p className='mb-5 text-lg leading-loose text-gray-600'>
@@ -137,6 +160,64 @@ export const About: React.FC = () => {
 						}`}
 					>
 						{message}
+					</div>
+				)}
+			</section>
+
+			<section className='mt-10'>
+				<h2 className='mb-5 text-3xl font-semibold text-gray-800'>
+					联系人列表
+					{contacts.length > 0 && (
+						<span className='ml-2 text-lg text-gray-500'>
+							(总计: {contacts.length})
+						</span>
+					)}
+				</h2>
+
+				{loadingContacts ? (
+					<div className='py-8 text-center text-gray-500'>加载中...</div>
+				) : contacts.length === 0 ? (
+					<div className='rounded-lg border border-gray-200 bg-gray-50 p-8 text-center text-gray-500'>
+						暂无联系人记录
+					</div>
+				) : (
+					<div className='overflow-hidden rounded-lg border border-gray-200'>
+						<table className='min-w-full divide-y divide-gray-200'>
+							<thead className='bg-gray-50'>
+								<tr>
+									<th className='px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500'>
+										ID
+									</th>
+									<th className='px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500'>
+										姓名
+									</th>
+									<th className='px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500'>
+										邮箱
+									</th>
+									<th className='px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500'>
+										创建时间
+									</th>
+								</tr>
+							</thead>
+							<tbody className='divide-y divide-gray-200 bg-white'>
+								{contacts.map((contact) => (
+									<tr key={contact.id} className='hover:bg-gray-50'>
+										<td className='whitespace-nowrap px-6 py-4 text-sm text-gray-900'>
+											{contact.id}
+										</td>
+										<td className='whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900'>
+											{contact.name}
+										</td>
+										<td className='whitespace-nowrap px-6 py-4 text-sm text-gray-500'>
+											{contact.email}
+										</td>
+										<td className='whitespace-nowrap px-6 py-4 text-sm text-gray-500'>
+											{new Date(contact.createdAt).toLocaleString('zh-CN')}
+										</td>
+									</tr>
+								))}
+							</tbody>
+						</table>
 					</div>
 				)}
 			</section>
