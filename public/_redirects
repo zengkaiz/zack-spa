@@ -1,0 +1,4 @@
+# Cloudflare Pages SPA 重定向配置
+# 所有非文件请求都重定向到 index.html 以支持客户端路由
+
+/* /index.html 200
