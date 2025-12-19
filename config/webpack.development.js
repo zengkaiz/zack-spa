@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require("@soda/friendly-errors-webpack-plugin")
 
-const port = 3000;
+const port = 8080;
 module.exports = {
   mode: 'development',
   devServer: {
@@ -15,8 +15,9 @@ module.exports = {
     proxy: [
       {
         context: ['/api'],
-        target: 'http://localhost:80',
+        // target: 'http://localhost:80',
         // target: 'http://47.93.181.79:8082',
+        target: "https://nvdv338g40.execute-api.us-east-1.amazonaws.com/dev",
         changeOrigin: true,
         secure: false,
       },

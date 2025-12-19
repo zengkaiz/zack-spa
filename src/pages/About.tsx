@@ -1,5 +1,6 @@
+import { GitHubUser } from '@components/GitHubUser';
 import type React from 'react';
-import { type FormEvent, useState } from 'react';
+import { type FormEvent, useEffect, useState } from 'react';
 
 interface ContactFormData {
 	name: string;
@@ -17,7 +18,7 @@ interface Contact {
 interface ApiResponse {
 	success: boolean;
 	message?: string;
-	data?: any;
+	data?: Contact;
 }
 
 interface ContactListResponse {
@@ -55,7 +56,11 @@ export const About: React.FC = () => {
 		}
 	};
 
-	fetchContacts();
+	// biome-ignore lint/correctness/useExhaustiveDependencies: Only run on mount
+	useEffect(() => {
+		fetchContacts();
+	}, []);
+
 	const handleSubmit = async (e: FormEvent) => {
 		e.preventDefault();
 		setLoading(true);
@@ -220,6 +225,10 @@ export const About: React.FC = () => {
 						</table>
 					</div>
 				)}
+			</section>
+
+			<section className='mt-10'>
+				<GitHubUser />
 			</section>
 		</div>
 	);
