@@ -42,8 +42,7 @@ export const About: React.FC = () => {
 
 	const fetchContacts = async () => {
 		try {
-			const API_URL = process.env.REACT_APP_API_URL;
-			const response = await fetch(`${API_URL}/api/contacts`);
+			const response = await fetch(`/api/contacts`);
 			const result: ContactListResponse = await response.json();
 
 			if (result.success) {
@@ -67,8 +66,7 @@ export const About: React.FC = () => {
 		setMessage('');
 
 		try {
-			const API_URL = process.env.REACT_APP_API_URL;
-			const response = await fetch(`${API_URL}/api/contacts`, {
+			const response = await fetch(`/api/contacts`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

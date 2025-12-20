@@ -17,12 +17,27 @@
 
 3. **环境变量**（必须配置）：
    ```
-   REACT_APP_API_URL = https://your-api-url.com
+   BACKEND_API_URL = https://nvdv338g40.execute-api.us-east-1.amazonaws.com/dev
    ```
+
+   **注意**：这是后端 API 的实际地址，用于 Cloudflare Pages Functions 代理转发。
 
 4. **保存并部署**
 
 **重要**：不要在构建命令中添加 `wrangler pages deploy`，Cloudflare Pages 会自动处理部署！
+
+## 🔧 API 代理配置
+
+本项目使用 **Cloudflare Pages Functions** 来代理后端 API 请求，解决跨域问题。
+
+### 工作原理
+1. 前端发送请求到 `/api/*`（相对路径）
+2. Cloudflare Pages Functions 拦截这些请求
+3. 转发到配置的后端 API（通过 `BACKEND_API_URL` 环境变量）
+4. 添加 CORS 响应头后返回给前端
+
+### 相关文件
+- `functions/api/[[path]].ts` - API 代理函数，处理所有 `/api/*` 请求
 
 ## ⚠️ 当前已知问题
 
@@ -45,7 +60,8 @@
 
 ### ❌ 环境变量不生效
 - **检查**：Cloudflare Pages 控制台 → 设置 → 环境变量
-- **确认**：变量名为 `REACT_APP_API_URL`（不要拼写错误）
+- **确认**：变量名为 `BACKEND_API_URL`（不要拼写错误）
+- **说明**：该变量用于 Cloudflare Pages Functions 代理转发到后端 API
 
 ### ⚠️ 构建警告：资源过大
 - **影响**：不会导致部署失败，只是性能警告

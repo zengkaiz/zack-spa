@@ -9,11 +9,16 @@
 在 Cloudflare Pages 控制台配置以下环境变量：
 
 **生产环境：**
-- `REACT_APP_API_URL`: 你的生产环境 API 地址
+- `BACKEND_API_URL`: 后端 API 实际地址（用于 Cloudflare Pages Functions 代理）
   - 示例: `https://nvdv338g40.execute-api.us-east-1.amazonaws.com/dev`
+  - **重要**：这个变量被 `functions/api/[[path]].ts` 使用，用于转发请求到后端
 
 **预览环境：**
-- `REACT_APP_API_URL`: 你的预览环境 API 地址（可选）
+- `BACKEND_API_URL`: 预览环境后端 API 地址（可选）
+
+**说明**：
+- 前端代码使用相对路径 `/api/*`
+- Cloudflare Pages Functions 会拦截所有 `/api/*` 请求并转发到 `BACKEND_API_URL`
 
 ### 构建配置
 
@@ -29,6 +34,7 @@
 - `public/_redirects`: SPA 路由重定向配置，所有路由都指向 index.html
 - `public/_headers`: HTTP 响应头配置，包含安全头和缓存策略
 - `wrangler.toml`: Cloudflare Pages 项目配置
+- `functions/api/[[path]].ts`: Cloudflare Pages Functions API 代理，处理所有 `/api/*` 请求并转发到后端
 
 ## 部署方法
 
@@ -44,7 +50,7 @@
    - **构建输出目录**: `dist`
    - **根目录**: `/`（默认）
    - **环境变量**:
-     - 添加 `REACT_APP_API_URL` = 你的 API 地址
+     - 添加 `BACKEND_API_URL` = 你的后端 API 地址（如：`https://nvdv338g40.execute-api.us-east-1.amazonaws.com/dev`）
 6. 点击 "保存并部署"
 
 **重要提示**: Cloudflare Pages 会自动处理部署，不需要在构建命令中运行 `wrangler pages deploy`。构建完成后会自动部署 dist 目录。
@@ -88,13 +94,38 @@ wrangler pages deploy dist --project-name=my-spa
 在 Cloudflare Pages 控制台中配置生产环境变量：
 1. 进入你的 Pages 项目
 2. 点击 "设置" > "环境变量"
-3. 添加 `REACT_APP_API_URL` 变量
+3. 添加 `BACKEND_API_URL` 变量（后端 API 实际地址）
 
 ## 缓存策略
 
 项目配置了智能缓存策略（见 `public/_headers`）：
 - 静态资源（JS、CSS、图片）：1年缓存，immutable
 - index.html：不缓存，确保总是获取最新版本
+
+## API 代理配置（解决 CORS 问题）
+
+本项目使用 Cloudflare Pages Functions 来代理 API 请求，避免跨域问题。
+
+### 工作原理
+
+1. **前端请求**：前端代码使用相对路径发送请求（如 `/api/contacts`）
+2. **函数拦截**：Cloudflare Pages Functions 拦截所有 `/api/*` 路径的请求
+3. **代理转发**：`functions/api/[[path]].ts` 将请求转发到环境变量 `BACKEND_API_URL` 指定的后端 API
+4. **添加 CORS**：在响应中添加必要的 CORS 头，允许前端访问
+5. **返回结果**：将后端响应返回给前端
+
+### 配置步骤
+
+1. 在 Cloudflare Pages 控制台设置环境变量 `BACKEND_API_URL`
+2. 前端代码无需修改，已配置为使用相对路径
+3. 部署后自动生效
+
+### 优势
+
+- ✅ 无需修改后端代码
+- ✅ 自动处理 CORS
+- ✅ 隐藏后端 API 地址
+- ✅ 可以添加请求/响应处理逻辑
 
 ## 安全配置
 

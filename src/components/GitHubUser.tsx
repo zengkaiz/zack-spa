@@ -34,8 +34,7 @@ export const GitHubUser = () => {
 		setUserData(null);
 
 		try {
-			const API_URL = process.env.REACT_APP_API_URL ?? '';
-			const response = await fetch(`${API_URL}/api/github/user`, {
+			const response = await fetch(`/api/github/user`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
