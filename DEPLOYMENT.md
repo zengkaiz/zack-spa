@@ -39,10 +39,15 @@
 3. 点击 "创建项目"
 4. 连接你的 GitHub/GitLab 仓库
 5. 配置构建设置：
-   - 构建命令: `pnpm client:prod`
-   - 构建输出目录: `dist`
-6. 添加环境变量 `REACT_APP_API_URL`
-7. 点击 "保存并部署"
+   - **框架预设**: 无/None
+   - **构建命令**: `pnpm client:prod`
+   - **构建输出目录**: `dist`
+   - **根目录**: `/`（默认）
+   - **环境变量**:
+     - 添加 `REACT_APP_API_URL` = 你的 API 地址
+6. 点击 "保存并部署"
+
+**重要提示**: Cloudflare Pages 会自动处理部署，不需要在构建命令中运行 `wrangler pages deploy`。构建完成后会自动部署 dist 目录。
 
 ### 方法 2: 使用 Wrangler CLI
 
@@ -99,7 +104,39 @@ wrangler pages deploy dist --project-name=my-spa
 - `X-XSS-Protection: 1; mode=block` - XSS 保护
 - `Referrer-Policy: strict-origin-when-cross-origin` - Referrer 策略
 
+## 性能优化建议
+
+### 优化 favicon.ico
+当前的 favicon.ico 文件较大（4.5MB），建议优化：
+
+1. **在线工具优化**:
+   - 使用 [favicon.io](https://favicon.io/) 生成标准大小的 favicon
+   - 使用 [TinyPNG](https://tinypng.com/) 压缩图标
+
+2. **推荐规格**:
+   - 尺寸: 16x16, 32x32, 48x48
+   - 文件大小: < 100KB
+   - 格式: ICO 或 PNG
+
+3. **替换步骤**:
+   ```bash
+   # 备份原文件
+   mv public/favicon.ico public/favicon.ico.bak
+
+   # 添加新的优化后的 favicon.ico
+   # 重新构建
+   pnpm client:prod
+   ```
+
 ## 故障排查
+
+### 部署失败：wrangler: not found
+**原因**: 在 Cloudflare Pages 自动构建中不需要运行 `wrangler` 命令。
+
+**解决方案**:
+- 确保构建命令只是 `pnpm client:prod`
+- Cloudflare Pages 会自动部署 dist 目录的内容
+- 不要添加 `wrangler pages deploy` 到构建命令
 
 ### 路由 404 问题
 确保 `public/_redirects` 文件存在且被正确复制到 dist 目录。
@@ -111,6 +148,12 @@ wrangler pages deploy dist --project-name=my-spa
 - 检查 Node.js 版本是否 >= 18
 - 确保所有依赖已正确安装
 - 查看 Cloudflare Pages 构建日志获取详细错误信息
+
+### 资源文件过大警告
+如果看到 webpack 警告文件过大：
+- 优化图片和 favicon（参考上面的优化建议）
+- 考虑使用代码分割（code splitting）
+- 启用 gzip/brotli 压缩（Cloudflare 自动提供）
 
 ## 参考链接
 
