@@ -67,6 +67,9 @@
   },
   "dependencies": {
     "@welldone-software/why-did-you-render": "^10.0.1",
+    "@zack/hooks": "^1.0.0",
+    "@zack/libs": "^1.0.0",
+    "@zack/ui": "^1.0.0",
     "ethers": "^6.16.0",
     "jotai": "^2.15.2",
     "jotai-immer": "^0.4.1",

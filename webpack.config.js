@@ -15,7 +15,7 @@ const webpackBaseConfig = {
     main: path.resolve(__dirname, './src/index.tsx'),
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', '.mjs'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@layouts': path.resolve(__dirname, 'src/layouts'),
@@ -27,7 +27,13 @@ const webpackBaseConfig = {
       '@abis': path.resolve(__dirname, 'src/abis'),
       '@stores': path.resolve(__dirname, 'src/stores'),
       '@connections': path.resolve(__dirname, 'src/connections'),
+      '@zack/libs': path.resolve(__dirname, 'node_modules/@zack/libs'),
+      '@zack/hooks': path.resolve(__dirname, 'node_modules/@zack/hooks'),
+      '@zack/ui': path.resolve(__dirname, 'node_modules/@zack/ui'),
     },
+    modules: [path.resolve(__dirname, 'node_modules'), 'node_modules'],
+    symlinks: true,
+    mainFields: ['module', 'main', 'browser'],
   },
   module: {
     rules: [
@@ -38,6 +44,11 @@ const webpackBaseConfig = {
           // loader: 'ts-loader',
           loader: 'swc-loader',
         },
+      },
+      {
+        test: /\.(js|mjs)$/,
+        include: /node_modules\/@zack/,
+        type: 'javascript/auto',
       },
       {
         test: /\.css$/i,

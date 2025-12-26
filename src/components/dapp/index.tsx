@@ -1,3 +1,4 @@
+import { Button, Input, Label } from '@zack/ui';
 import { BrowserProvider } from 'ethers';
 import { useCallback, useEffect, useState } from 'react';
 import InfoContractABI from '@/abis/InfoContract.json';
@@ -151,104 +152,101 @@ const Index = () => {
 	};
 
 	return (
-		<div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto' }}>
-			<h1>InfoContract DApp</h1>
+		<div className='space-y-6'>
+			<div className='mb-6'>
+				<h3 className='text-2xl font-bold text-gray-900'>InfoContract DApp</h3>
+				<p className='mt-2 text-sm text-gray-600'>
+					与智能合约交互示例 - 存储和读取链上信息
+				</p>
+			</div>
 
 			{/* 钱包连接状态 */}
-			<div
-				style={{
-					marginBottom: '20px',
-					padding: '10px',
-					background: '#f0f0f0',
-					borderRadius: '5px',
-				}}
-			>
+			<div className='rounded-lg bg-gray-50 p-5'>
 				{account ? (
-					<div>
-						<p>
-							<strong>已连接账户:</strong> {account}
-						</p>
-						<p>
-							<strong>合约地址:</strong> {CONTRACT_ADDRESS}
-						</p>
+					<div className='space-y-2'>
+						<div className='flex items-center justify-between'>
+							<span className='text-sm font-medium text-gray-700'>
+								已连接账户:
+							</span>
+							<span className='font-mono text-sm text-gray-900'>{account}</span>
+						</div>
+						<div className='flex items-center justify-between'>
+							<span className='text-sm font-medium text-gray-700'>
+								合约地址:
+							</span>
+							<span className='font-mono text-sm text-gray-900'>
+								{CONTRACT_ADDRESS}
+							</span>
+						</div>
 					</div>
 				) : (
-					<button
-						type='button'
-						onClick={connectWallet}
-						style={{ padding: '10px 20px', cursor: 'pointer' }}
-					>
-						连接钱包
-					</button>
+					<div className='text-center'>
+						<p className='mb-4 text-sm text-gray-600'>请先连接 MetaMask 钱包</p>
+						<Button onClick={connectWallet} size='lg'>
+							连接钱包
+						</Button>
+					</div>
 				)}
 			</div>
 
 			{/* 设置信息 */}
 			{account && (
-				<div style={{ marginBottom: '20px' }}>
-					<h3>设置信息</h3>
-					<div style={{ marginBottom: '10px' }}>
-						<input
-							type='text'
-							placeholder='姓名'
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-							style={{ padding: '5px', marginRight: '10px', width: '200px' }}
-						/>
-						<input
-							type='number'
-							placeholder='年龄'
-							value={age || ''}
-							onChange={(e) => setAge(Number(e.target.value))}
-							style={{ padding: '5px', width: '100px' }}
-						/>
+				<div className='space-y-4 rounded-lg border border-gray-200 bg-white p-6'>
+					<h4 className='text-lg font-semibold text-gray-900'>设置信息</h4>
+					<div className='grid gap-4 md:grid-cols-2'>
+						<div className='space-y-2'>
+							<Label htmlFor='name'>姓名</Label>
+							<Input
+								id='name'
+								type='text'
+								placeholder='请输入姓名'
+								value={name}
+								onChange={(e) => setName(e.target.value)}
+							/>
+						</div>
+						<div className='space-y-2'>
+							<Label htmlFor='age'>年龄</Label>
+							<Input
+								id='age'
+								type='number'
+								placeholder='请输入年龄'
+								value={age || ''}
+								onChange={(e) => setAge(Number(e.target.value))}
+							/>
+						</div>
 					</div>
-					<button
-						type='button'
-						onClick={handleSetInfo}
-						disabled={loading}
-						style={{
-							padding: '10px 20px',
-							cursor: 'pointer',
-							marginRight: '10px',
-						}}
-					>
+					<Button onClick={handleSetInfo} disabled={loading} className='w-full'>
 						{loading ? '处理中...' : '设置信息'}
-					</button>
+					</Button>
 				</div>
 			)}
 
 			{/* 获取信息 */}
 			{account && (
-				<div style={{ marginBottom: '20px' }}>
-					<h3>获取信息</h3>
-					<button
-						type='button'
+				<div className='space-y-4 rounded-lg border border-gray-200 bg-white p-6'>
+					<h4 className='text-lg font-semibold text-gray-900'>获取信息</h4>
+					<Button
 						onClick={handleGetInfo}
 						disabled={loading}
-						style={{
-							padding: '10px 20px',
-							cursor: 'pointer',
-							marginRight: '10px',
-						}}
+						variant='outline'
+						className='w-full'
 					>
 						{loading ? '加载中...' : '获取信息'}
-					</button>
+					</Button>
 					{currentInfo && (
-						<div
-							style={{
-								marginTop: '10px',
-								padding: '10px',
-								background: '#e8f5e9',
-								borderRadius: '5px',
-							}}
-						>
-							<p>
-								<strong>姓名:</strong> {currentInfo.name}
-							</p>
-							<p>
-								<strong>年龄:</strong> {currentInfo.age.toString()}
-							</p>
+						<div className='rounded-lg bg-green-50 p-4'>
+							<div className='space-y-2'>
+								<div className='flex justify-between'>
+									<span className='font-medium text-gray-700'>姓名:</span>
+									<span className='text-gray-900'>{currentInfo.name}</span>
+								</div>
+								<div className='flex justify-between'>
+									<span className='font-medium text-gray-700'>年龄:</span>
+									<span className='text-gray-900'>
+										{currentInfo.age.toString()}
+									</span>
+								</div>
+							</div>
 						</div>
 					)}
 				</div>
@@ -256,16 +254,16 @@ const Index = () => {
 
 			{/* SayHi */}
 			{account && (
-				<div style={{ marginBottom: '20px' }}>
-					<h3>打招呼</h3>
-					<button
-						type='button'
+				<div className='space-y-4 rounded-lg border border-gray-200 bg-white p-6'>
+					<h4 className='text-lg font-semibold text-gray-900'>打招呼</h4>
+					<Button
 						onClick={handleSayHi}
 						disabled={loading}
-						style={{ padding: '10px 20px', cursor: 'pointer' }}
+						variant='secondary'
+						className='w-full'
 					>
 						{loading ? '调用中...' : '调用 sayHi'}
-					</button>
+					</Button>
 				</div>
 			)}
 		</div>
