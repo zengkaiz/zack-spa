@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require("@soda/friendly-errors-webpack-plugin")
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const port = 8080;
 module.exports = {
@@ -31,6 +32,7 @@ module.exports = {
     assetModuleFilename: "images/[name].[ext]",
   },
   plugins: [
+    new BundleAnalyzerPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       favicon: './public/favicon.ico',
